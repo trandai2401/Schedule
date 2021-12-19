@@ -26,6 +26,7 @@ public class add extends AppCompatActivity {
     private Spinner spnCategory;
     private categoryAdapter categoryAdapter;
     Button btntimepicker;
+    Button btntimepicker_1;
     int hour, minute;
     @SuppressLint("WrongViewCast")
     @Override
@@ -33,8 +34,9 @@ public class add extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
 
-        btntimepicker = findViewById(R.id.btntime);
+        btntimepicker = findViewById(R.id.btntimebd);
 
+        btntimepicker_1 = findViewById(R.id.btntimekt);
         spnCategory = findViewById(R.id.spn_category);
         categoryAdapter = new categoryAdapter(this, R.layout.item_selected, getListCategory());
         spnCategory.setAdapter(categoryAdapter);
@@ -72,6 +74,22 @@ public class add extends AppCompatActivity {
                 hour = selectedHour;
                 minute = selectedMinute;
                 btntimepicker.setText(String.format(Locale.getDefault(), "%02d:%02d ", hour, minute));
+            }
+        };
+        int style = AlertDialog.THEME_HOLO_DARK;
+        TimePickerDialog timePickerDialog = new TimePickerDialog(this, onTimeSetListener, hour, minute,true);
+
+        timePickerDialog.setTitle("");
+        timePickerDialog.show();
+    }
+
+    public void popTimePicker_1(View view) {
+        TimePickerDialog.OnTimeSetListener onTimeSetListener = new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
+                hour = selectedHour;
+                minute = selectedMinute;
+                btntimepicker_1.setText(String.format(Locale.getDefault(), "%02d:%02d ", hour, minute));
             }
         };
         int style = AlertDialog.THEME_HOLO_DARK;

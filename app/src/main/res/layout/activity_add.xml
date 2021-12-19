@@ -55,14 +55,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Thời gian"
+        android:text="Thời gian bắt đầu"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <Button
         android:onClick="popTimePicker"
-        android:id="@+id/btntime"
+        android:id="@+id/btntimebd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian kết thúc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:onClick="popTimePicker_1"
+        android:id="@+id/btntimekt"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -77,8 +98,7 @@
         android:layout_height="wrap_content"
         android:text="Thêm mới"
         android:background="@drawable/bt_tron"
-        android:layout_marginTop="30dp"
-
+        android:layout_marginTop="50dp"
         android:textAllCaps="false"
         android:textSize="20sp"/>
 

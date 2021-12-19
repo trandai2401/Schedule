@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class menu extends AppCompatActivity {
     Button btnlogout;
     Button btnthem;
-    Button btnsua;
+    Button btntimkiem;
     Button btncapnhat;
     Button btnxemtkb;
     TextView tenUserTextView;
@@ -59,6 +59,14 @@ public class menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(menu.this, xemtkb.class));
+            }
+        });
+
+        btntimkiem = (Button) findViewById(R.id.btn_timkiem);
+        btntimkiem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(menu.this, search.class));
             }
         });
     }
