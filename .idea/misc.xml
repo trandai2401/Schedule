@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_add.xml" value="0.16" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_edit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_personal_management.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_search.xml" value="0.16" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_xemtkb.xml" value="0.24678362573099416" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_category.xml" value="0.33" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_selected.xml" value="0.5" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_xemtkb.xml" value="0.33" />
+        <entry key="..\:/Users/TRAN DAI/Downloads/schedule/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/xemtkb.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_edit.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_login.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_personal_management.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/activity_xemtkb.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_category.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_selected.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/item_xemtkb.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2 (1)/schedule2/schedule2/app/src/main/res/layout/xemtkb.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/drawable/back_icon.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/drawable/bg_dong.xml" value="0.255859375" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/drawable/bg_dong_hoadon.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/drawable/bt_tron.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/drawable/round.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_add.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_edit.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_personal_management.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/bt_tron.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/giaodien.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/item_category.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/item_selected.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/schedule2/app/src/main/res/layout/xemtkb.xml" value="0.264" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/drawable-v24/delete.xml" value="0.26205128205128203" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/activity_edit.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/item_category.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/item_selected.xml" value="0.25" />
+        <entry key="..\:/schedule2/schedule2/app/src/main/res/layout/xemtkb.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
