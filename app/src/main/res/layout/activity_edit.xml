@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="#9FD6F3"
-    tools:context=".edit">
-
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_marginTop="30dp"
@@ -20,20 +18,21 @@
         android:textSize="20sp"/>
 
     <Spinner
+        android:layout_gravity="center"
         android:id="@+id/spn_category"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="-85dp"
+        android:layout_marginTop="30dp"
+
         android:background="@color/white" />
 
 
     <TextView
         android:padding="5dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-308dp"
+        android:layout_marginLeft="20dp"
         android:text="Công việc"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -44,41 +43,64 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:layout_marginTop="185dp"
-        android:layout_marginLeft="-91dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
         android:padding="10dp"
         />
 
     <TextView
+        android:layout_marginLeft="20dp"
         android:padding="5dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-305dp"
-        android:text="Thời gian"
+
+        android:text="Thời gian bắt đầu"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <Button
         android:onClick="popTimePicker"
-        android:id="@+id/btntime_1"
+        android:id="@+id/btntimebd"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-90dp"
-        android:layout_marginTop="295dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian kết thúc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:onClick="popTimePicker_1"
+        android:id="@+id/btntimekt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:background="@color/white"
         android:padding="10dp" />
 
     <Button
+        android:layout_gravity="center"
         android:id="@+id/btnthemmoi"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Cập nhật"
+        android:text="Thêm mới"
         android:background="@drawable/bt_tron"
-        android:layout_marginTop="390dp"
-        android:layout_marginLeft="-240dp"
+        android:layout_marginTop="50dp"
         android:textAllCaps="false"
         android:textSize="20sp"/>
 
-</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
