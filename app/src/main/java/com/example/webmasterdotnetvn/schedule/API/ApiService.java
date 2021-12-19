@@ -18,7 +18,7 @@ public interface ApiService {
 
     Gson GSON = new GsonBuilder().serializeNulls().create();
     ApiService apiService= new Retrofit.Builder()
-            .baseUrl("http://192.168.1.7/schedule/public/")
+            .baseUrl("https://banhangdacap207.000webhostapp.com/schedule/public/")
             .addConverterFactory(GsonConverterFactory.create(GSON))
             .build()
             .create(ApiService.class);
