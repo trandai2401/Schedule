@@ -43,7 +43,6 @@ public class login extends AppCompatActivity {
                                 if (response.body() != null) {
 //                                    Toast.makeText(login.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
                                     User user = response.body();
-                                    System.out.println("Kết quả đây bà con : " + user.getId());
                                     startActivity(new Intent(login.this, menu.class));
                                     SharedPreferences preferences = getSharedPreferences("login", MODE_PRIVATE);
                                     SharedPreferences.Editor editor = preferences.edit();
@@ -59,7 +58,6 @@ public class login extends AppCompatActivity {
 
                             @Override
                             public void onFailure(Call<User> call, Throwable t) {
-                                System.out.println("Loi" + t.getMessage());
                                 Toast.makeText(login.this, "Đăng nhập thất bại! Sai email hoặc mật khẩu", Toast.LENGTH_SHORT).show();
 
                             }

@@ -70,4 +70,10 @@ public class menu extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        tenUserTextView.setText(login.staticUser.getName());
+    }
 }

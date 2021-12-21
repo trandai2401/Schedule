@@ -100,7 +100,9 @@
         android:background="@drawable/bt_tron"
         android:layout_marginTop="50dp"
         android:textAllCaps="false"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:onClick="addCongViec"
+        />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

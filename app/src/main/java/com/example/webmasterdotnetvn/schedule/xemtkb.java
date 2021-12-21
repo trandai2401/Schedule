@@ -82,6 +82,14 @@ public class xemtkb extends AppCompatActivity {
             View view = getLayoutInflater().inflate(R.layout.item_category, null);
             TextView tv_category = view.findViewById(R.id.tv_category);
             tv_category.setText(dataList.get(position).getName());
+            tv_category.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(xemtkb.this, XemChiTietCongViecActivity.class);
+                    intent.putExtra("idThu",dataList.get(position).getId());
+                    startActivity(intent);
+                }
+            });
             return view;
         }
     }

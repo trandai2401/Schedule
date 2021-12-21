@@ -17,6 +17,7 @@
             android:src="@drawable/sky"></ImageView>
 
         <TextView
+            android:id="@+id/tenNguoiDungTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="230dp"
@@ -135,6 +136,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:background="@drawable/bt_tron"
+            android:onClick="callApi"
             android:text="Cập nhật"
             android:textAllCaps="false" />
     </LinearLayout>
